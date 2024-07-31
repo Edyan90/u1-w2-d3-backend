@@ -96,8 +96,8 @@ public class Main {
         }
         ordiniBoys.forEach(System.out::println);
         System.out.println("-------------------ex4----------------------");
-        LocalDate startDate = LocalDate.of(2021, 2, 1);
-        LocalDate endDate = LocalDate.of(2021, 4, 1);
+        LocalDate startDate = LocalDate.of(2024, 1, 1);
+        LocalDate endDate = LocalDate.of(2024, 8, 1);
 
         Predicate<Order> isTier2 = order ->
                 order.getCustomer().getTier() == 2 &&
